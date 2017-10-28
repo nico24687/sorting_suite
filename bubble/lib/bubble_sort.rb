@@ -1,7 +1,6 @@
 class BubbleSort
 
   def sort(array)
-    # binding.pry
     positions = array.length
     loop do 
       swapped = false 

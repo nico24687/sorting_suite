@@ -18,7 +18,6 @@ class BubbleSortTest < Minitest::Test
   end 
 
   def test_it_can_sort_letters
-    # skip
     sorter = BubbleSort.new
 
     assert_equal ["a", "b", "c", "d"], sorter.sort(["d", "b", "a", "c"])
